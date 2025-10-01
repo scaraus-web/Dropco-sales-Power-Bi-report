@@ -1,0 +1,33 @@
+SKU,Name,Stock,Regular price,Categories,2023-10,2023-11,2023-12,2024-01,2024-02,2024-03,2024-04,2024-05,2024-06,2024-07,2024-08,2024-09,2024-10,2024-11,2024-12,2025-01,2025-02,2025-03,2025-04,2025-05,2025-06,2025-07,2025-08,2025-09
+PKS0001,Planet-Keeper Single set,10,154,Best deals,0,1,1,0,0,1,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0,0
+PKD0001,Planet-Keeper Duo set,10,217,Best deals,0,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0
+PKF0001,Planet-Keeper Family set,10,332,Best deals,0,0,0,1,0,0,0,0,0,0,0,0,0,1,1,1,1,0,0,0,0,0,0,0
+EHS0001,Eco-Home set,20,139,Best deals,1,1,1,1,1,1,1,1,1,0,0,1,1,1,1,1,1,1,1,1,0,0,0,1
+EHL0001,Eco-Home Laundry set,10,207,Best deals,0,0,1,1,1,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0
+FST0001,Floor starter set,20,21,Starter sets,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1
+WST0001,Washmachine cleaner starter set,20,21,Starter sets,1,1,1,1,1,1,1,1,0,0,0,0,1,1,2,1,1,1,1,1,0,0,0,1
+DST0001,Dishwashing starter set,30,21,Starter sets,1,1,1,2,2,1,1,1,1,0,1,1,1,2,2,1,1,2,2,1,1,1,1,1
+GST0001,Glass starter set,20,28,Starter sets,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0
+BST0001,Bathroom starter set,20,28,Starter sets,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,0,1
+KST0001,Kitchen starter set,20,28,Starter sets,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,1,0,0,1,1
+HSST0001,Hand soap starter set,19,28,Starter sets,1,1,1,1,1,1,1,0,1,0,0,0,1,1,1,1,1,1,1,1,0,0,1,0
+GS0001,Glass set,20,137,Home care,1,1,1,1,1,1,0,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+FS0001,Floor set,30,63,Home care,1,1,2,2,2,2,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,0,1,1
+WS0001,Washmachine cleaning set,30,63,Home care,1,1,1,2,1,1,1,1,0,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1
+DS0001,Dishwashing set,30,63,Home care,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+BS0001,Bathroom set,20,139,Home care,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,0,1,0,0,0,1
+KS0001,Kitchen set,20,97,Home care,1,1,1,1,1,1,1,0,0,0,1,0,1,1,1,1,1,1,1,1,0,0,1,1
+HST0001,Hand soap Trio set,15,110,Body care,0,1,1,0,1,1,0,0,0,0,0,0,0,1,1,1,1,1,1,0,0,0,0,0
+HSD0001,Hand soap Duo set,20,76,Body care,1,1,1,1,1,1,1,1,0,0,0,0,1,1,1,1,1,1,1,1,0,0,0,1
+HSS0001,Hand soap Single set,20,32,Body care,1,1,1,1,1,1,1,0,0,0,0,0,1,1,1,1,1,1,1,0,0,0,0,1
+LS0001,Laundry sheets,250,18,"Laundry, Refills, Starter sets",7,9,9,12,13,7,6,7,4,4,4,7,7,10,14,11,10,10,9,4,5,4,6,4
+KR0001,Kitchen cleaner refills pack of 4,400,18,Refills,11,17,23,23,22,20,17,11,10,9,10,14,18,29,25,26,23,19,15,12,11,10,11,13
+WR0001,Washmachine cleaner refills pack of 8,200,18,Refills,9,11,11,11,11,10,6,6,5,4,5,5,10,12,11,13,8,9,9,6,6,6,5,6
+DR0001,Dishwashing refills pack of 8,200,18,Refills,8,7,10,13,7,7,6,5,5,4,3,6,7,12,10,11,13,11,9,5,5,4,5,5
+BR0001,Bathroom cleaner refills pack of 4,400,18,Refills,11,11,12,17,16,12,13,7,6,6,6,9,11,14,20,15,11,19,17,9,5,6,7,9
+FR0001,Floor cleaner refills pack of 8,200,18,Refills,6,7,6,9,11,7,6,5,4,2,3,5,8,8,12,8,10,9,6,6,5,3,3,6
+GR0001,Glass cleaner refills pack of 4,400,18,Refills,8,11,14,10,10,13,9,4,6,6,5,6,12,14,21,17,17,14,12,9,7,6,6,8
+SPBP0001,Spray bottle pump,10,6,Accessories,0,0,1,1,1,1,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0
+HSBP0001,Hand soap bottle pump,10,6,Accessories,0,0,1,1,0,0,0,0,0,0,0,0,0,1,1,1,1,1,0,0,0,0,0,0
+SPB0001,Spray bottle,50,20,Accessories,2,3,2,2,3,3,2,1,1,1,1,2,2,2,3,3,3,3,3,2,1,1,1,2
+HSB0001,Hand soap bottle,50,20,Accessories,2,2,3,3,3,2,2,1,1,1,1,2,2,3,3,3,3,3,2,1,1,1,2,2
