@@ -1,1 +1,100 @@
+# Dropco Sales Report — Public Portfolio Version
+
+A compact Power BI report showcasing **Dropco** sales performance using a **public-safe dataset** (no per-SKU cost, inventory depth, replenishment, PII, or campaign IDs). Built to demonstrate modeling, DAX, and dashboarding while protecting business data.
+
+**Download the PBIX:** https://github.com/scaraus-web/Dropco-sales-Power-Bi-report/blob/main/pbix/Dropco%20Sales%20report%20Public.pbix
+**Public dataset:** https://github.com/scaraus-web/Dropco-sales-Power-Bi-report/blob/main/data/Dropco%20stock%20movements%20w%20sales%20campains%20public%20.csv
+**Screenshot:** https://github.com/scaraus-web/Dropco-sales-Power-Bi-report/blob/main/images/Dashboard.png
+
+---
+
+## What the report shows
+
+**KPIs (top row)**
+
+* **Total sales**, **Total cost** *(sanitized aggregate)*, **Total profit**, **Profit margin %*.*
+
+**Category drilldowns**
+
+* **Total cost vs Total sales by Category** (clustered bars)
+* **Sum of sales quantity by Category** (bar)
+* **Total sales by Category** (donut)
+
+**Time trends & goal tracking**
+
+* **Total Profit by Month** (line with markers)
+* **Total Sales by Month** (line with markers)
+* **Total Sales vs Target** (area + KPI)
+
+**Slicers**
+
+* **Categories**
+* **Year**
+
+---
+
+## Data (public-safe)
+
+**File:** `Dropco stock movements w sales campains public .csv`
+**Grain:** Monthly, Category/SKU level suitable for public sharing.
+
+**Columns (pattern)**
+
+* `SKU` *(or alias)*
+* `Name`
+* `Categories`
+* **Monthly columns** named as `YYYY-MM` (e.g., `2023-10`, `2023-11`, …) holding the monthly sales/units used in visuals.
+
+**Intentionally excluded**
+
+* Per-SKU **cost/COGS**, **inventory levels**, **replenishment columns**, **campaign identifiers**, and **granular ad metrics**.
+
+**Safeguards**
+
+* Aggregated by month/category (no transaction/PII).
+* Values may be rounded and small counts suppressed in visuals/measures for public sharing.
+* Recent weeks/months can be omitted in public views.
+
+> **Interpretation:** Trends and proportions reflect reality; fine-grained operational details are intentionally masked.
+
+---
+
+## Measures (conceptual)
+
+* **Total Sales** — sum of monthly sales values from the public CSV.
+* **Total Cost** — sanitized aggregate used only for high-level margin storytelling.
+* **Total Profit** — *Sales − Cost*.
+* **Profit Margin %** — *Profit ÷ Sales*.
+* **Target Sales** — fixed/dynamic goal used in the KPI card.
+
+*(Exact measure names in the PBIX may differ; this is the conceptual layer used by the visuals.)*
+
+---
+
+## How to run locally
+
+1. Install **Power BI Desktop** (current build).
+2. Download this repo.
+3. Open **`Dropco Sales report Public.pbix`**.
+4. If prompted, browse to the CSV:
+   `Dropco stock movements w sales campains public .csv`.
+
+---
+
+
+## Notes for reviewers
+
+* Data is derived from real Dropco records but curated for public viewing.
+* Sensitive columns (cost, inventory depth, replenishment, campaign IDs, PII) are **not** present in the PBIX/model.
+* A deeper walkthrough of modeling choices is available on request (screen share).
+
+---
+
+
+
+## Contact
+
+**Serge Caraus**
+[serge.caraus@gmail.com](mailto:serge.caraus@gmail.com) · LinkedIn (https://www.linkedin.com/in/serge-caraus-8922b177/)
+
 
